@@ -3,10 +3,12 @@ pipeline {
         label "demoAgent"
     }
 
-    stages('Hello') {
+    stages {
+        stage('Hello') {
             steps {
                 echo '202206061741'
             }
+        }
     }
     post {
         always{
