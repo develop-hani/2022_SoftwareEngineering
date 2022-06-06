@@ -3,7 +3,7 @@ pipeline {
         label "demoAgent"
     }
 
-    stage('Hello') {
+    stages('Hello') {
             steps {
                 echo '202206061741'
             }
